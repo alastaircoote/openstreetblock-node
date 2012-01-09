@@ -9,7 +9,6 @@ this.options = {
 };
 
 this.doLookup = function(lat,lon, retFunc) {
-	console.log("fired")
 	//sanitise input - could we do more than this?
 	lat = parseFloat(lat);
 	lon = parseFloat(lon);
